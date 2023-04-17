@@ -1,4 +1,33 @@
+body{
+    font-family: 'Caveat', cursive;
+}
 .on{
     text-align: center;
+    font-family: 'Caveat', cursive;
+}
+#ont{
+    margin-top: 50px;
+    
+}
+#ons{
+    color: #4C2C69;
 }
 
+#slide{
+    color: #CD8B76;
+}
+
+#sl{
+    color: #4C2C69;
+}
+
+#con{
+    color: #60992D;
+}
+#conc{
+    color: #3C6E71;
+}
+
+.btn-primary{
+    background-color: #F76C5E;
+}
