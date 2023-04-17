@@ -1,3 +1,4 @@
+/* font init */
 body{
     font-family: 'Caveat', cursive;
     font-size: 32px;
@@ -7,6 +8,7 @@ body{
     font-family: 'Caveat', cursive;
     font-size: 62px;
 }
+/* colors */
 #ont{
     margin-top: 50px;
     margin-bottom: 30px;
@@ -19,15 +21,16 @@ body{
 #slide{
     color: #CD8B76;
 }
-
-
+#zeel{
+    margin-left: 100px;
+}
 #con{
     color: #60992D;
 }
 #conc{
     color: #3C6E71;
 }
-
+/* btn-colors */
 .btn-primary{
     background-color: #F76C5E;
     border-color: #F76C5E;
@@ -41,7 +44,7 @@ body{
     background-color: #2A9F61;
     border-color: #2A9F61;
 }
-
+/* fonts for mobile devices */
 @media only screen and (max-width: 767px) {
     .on{
         font-size: 40px;
@@ -51,5 +54,8 @@ body{
     }
     #conc{
         font-size: 18px;
+    }
+    #zeel{
+        margin-left: 25px;
     }
   }
