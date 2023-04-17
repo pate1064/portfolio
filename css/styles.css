@@ -31,3 +31,7 @@ body{
 .btn-primary{
     background-color: #F76C5E;
 }
+
+#contain .btn-primary{
+    background-color: #2A9F61;
+}
