@@ -1,12 +1,15 @@
 body{
     font-family: 'Caveat', cursive;
+    font-size: 32px;
 }
 .on{
     text-align: center;
     font-family: 'Caveat', cursive;
+    font-size: 62px;
 }
 #ont{
     margin-top: 50px;
+    margin-bottom: 30px;
     
 }
 #ons{
@@ -17,9 +20,6 @@ body{
     color: #CD8B76;
 }
 
-#sl{
-    color: #4C2C69;
-}
 
 #con{
     color: #60992D;
@@ -30,8 +30,26 @@ body{
 
 .btn-primary{
     background-color: #F76C5E;
+    border-color: #F76C5E;
+}
+.btn-primary:hover{
+    background-color: #48A9A6;
+    border-color: #48A9A6;
 }
 
 #contain .btn-primary{
     background-color: #2A9F61;
+    border-color: #2A9F61;
 }
+
+@media only screen and (max-width: 767px) {
+    .on{
+        font-size: 40px;
+    }
+    #con{
+        font-size: 20px;
+    }
+    #conc{
+        font-size: 18px;
+    }
+  }
